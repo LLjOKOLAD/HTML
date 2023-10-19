@@ -1,0 +1,169 @@
+body {
+    background-color: #DC143C; 
+}
+
+h1, h2, h3 {
+    font-size: 24px;
+    color: #2C17B1; 
+}
+
+
+p {
+    font-size: 24px;
+    color: #2C17B1; 
+}
+
+pre{
+    font-size: 24px;
+    color:#2C17B1;
+    margin:auto;
+}
+
+ul, ol {
+    list-style-type: disc;
+    margin: 10px 0;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; 
+}
+
+
+
+.links{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    margin: 10px; 
+}
+
+.header{
+    text-align: right;
+    margin: 15px;
+}
+
+.content-left {
+    flex: 2; 
+    background-color: #f3b8ff; 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content-left img{
+    width: 100px;
+}
+
+.content-right {
+    flex: 1; 
+    background-color: #f3b8ff; 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.container {
+    background-color: #f0f0f0; 
+}
+
+.cat-img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; 
+    margin: 0 auto;
+}
+
+.container-2 {
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #e74c3c; 
+}
+
+.container-3 {
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #27ae60; 
+    margin: 10px;
+}
+
+.container-4{
+    background-color: #f0f0f0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.block-4 {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: transparent; 
+    border: 4px solid red;
+    margin: 10px;
+}
+
+.block-5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent; 
+    border: 4px solid blue;
+}
+
+.block-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: transparent; 
+    border: 4px solid green;
+}
+
+.fix-cat{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+
