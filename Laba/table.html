@@ -4,6 +4,7 @@
     <title>Lab 4</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" type="text/css" href="./table.css">
+    <link rel="stylesheet" type="text/css" href="./form.css">
 </head>
 <body>
     <div class="header">
@@ -24,6 +25,7 @@
             </thead>
             <tbody>
                 <tr>
+                    
                     <td>1</td>
                     <td>Alina</td>
                     <td>Koroleva</td>
@@ -61,6 +63,26 @@
                 </tr>
             </tbody>
         </table>
+
+        <form id="addStudentForm" onsubmit="alert('Форма отправлена!')">
+            
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+    
+            <label for="FirstName">First Name:</label>
+            <input type="text" id="FirstName" name="FirstName" required>
+    
+            <label for="LastName">Last Name:</label>
+            <input type="text" id="LastName" name="LastName" required>
+    
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" name="Username" required>
+    
+            <button type="submit" id="addStudent">Submit</button>
+        </form>
+
+        <script src="./addSt.js"></script>
+
     </div>
 </body>
 </html>
