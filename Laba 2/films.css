@@ -1,0 +1,57 @@
+.col-md-6 {
+    padding: 15px; /* Внутренний отступ для блоков */
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Стили для фотографии актёра */
+.col-md-6 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Чтобы фотография была по центру */
+}
+
+/* Стили для карточек с фильмами */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Стили для выравнивания карточек по центру внутри col-md-3 */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .col-12.col-md-6:last-child {
+        display: none;
+    }
+}
+
+/* Стили для выравнивания таблицы по центру */
+.table {
+    margin: 0 auto;
+}
+

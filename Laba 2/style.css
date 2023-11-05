@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #5b5b5b; 
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #5f5f5f; 
+}
+
+.nav-link {
+    color: #979797; 
+}
+
+.nav-link:hover {
+    color: rgb(255, 71, 71); 
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link.active {
+    background-color: #0056b3; 
+}
+
+
+#actor-info {
+    padding: 20px;
+}
+
+#film-list {
+    padding: 20px;
+}
+
+#actor-carousel {
+    margin-top: 20px;
+}
+
+#actor-carousel .carousel-inner {
+    border-radius: 5px;
+}
+
+#actor-carousel .carousel-item img {
+    max-width: 100%;
+    max-height: 400px; 
+    margin: 0 auto;
+}
+
+#actor-carousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#actor-carousel .carousel-control-prev,
+#actor-carousel .carousel-control-next {
+    width: 5%;
+}
+
+#actor-carousel .carousel-control-prev-icon,
+#actor-carousel .carousel-control-next-icon {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#sidebar {
+    position: fixed;
+    top: 10%;
+    right: 0;
+    width: 200px;
+    height: 85%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#sidebar a:hover {
+    color: #007bff;
+}
