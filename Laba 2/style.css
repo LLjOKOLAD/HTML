@@ -46,6 +46,8 @@ header {
 }
 
 #actor-carousel {
+    border-radius: 5px;
+    background-color: #dadada;
     margin-top: 20px;
 }
 
@@ -54,8 +56,9 @@ header {
 }
 
 #actor-carousel .carousel-item img {
+    object-fit: contain;
     max-width: 100%;
-    max-height: 400px; 
+    max-height: 800px; 
     margin: 0 auto;
 }
 
